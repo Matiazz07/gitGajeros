@@ -5,20 +5,42 @@ const datosEquipos = {
 
         historia: "La selección neerlandesa es una de las más exitosas de Europa. Ha sido subcampeona mundial en tres ocasiones (1974, 1978 y 2010) y es reconocida por su histórico estilo de juego conocido como 'Fútbol Total'.",
 
-        curiosidades: [
-            "Conocida como la 'Naranja Mecánica'.",
-            "Nunca ha ganado un Mundial pese a disputar tres finales.",
-            "Johan Cruyff es considerado su mayor leyenda.",
-            "Popularizó el estilo de juego denominado 'Fútbol Total'."
-        ],
+        curiosidades: "Conocida como la 'Naranja Mecánica'. Nunca ha ganado un Mundial pese a disputar tres finales. Johan Cruyff es considerado su mayor leyenda y popularizó el estilo de juego denominado 'Fútbol Total'.",
 
-        estadisticas: {
-            participaciones: "12",
-            mejorResultado: "Subcampeón (1974, 1978 y 2010)",
-            titulos: "0",
-            goleador: "Robin van Persie (50 goles)",
-            masPartidos: "Wesley Sneijder (134 partidos)"
-        },
+participaciones: [
+    "1934 — Italia",
+    "1938 — Francia",
+    "1974 — Alemania Occidental 🥈",
+    "1978 — Argentina 🥈",
+    "1990 — Italia",
+    "1994 — Estados Unidos",
+    "1998 — Francia",
+    "2006 — Alemania",
+    "2010 — Sudáfrica 🥈",
+    "2014 — Brasil 🥉",
+    "2022 — Qatar"
+],
+
+estadísticasPrincipales: `
+<table class="tabla-estadisticas">
+    <tr>
+        <td>Mejor resultado</td>
+        <td>Subcampeón (1974, 1978 y 2010)</td>
+    </tr>
+    <tr>
+        <td>Títulos Mundiales</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Goleador histórico</td>
+        <td>Robin van Persie (50 goles)</td>
+    </tr>
+    <tr>
+        <td>Más partidos</td>
+        <td>Wesley Sneijder (134 partidos)</td>
+    </tr>
+</table>
+`,
 
         partidos: [
             {
@@ -40,133 +62,190 @@ const datosEquipos = {
     },
 
     japon: {
-        nombre: "JAPÓN",
+    nombre: "JAPÓN",
 
-        historia: "Japón es una de las selecciones más fuertes de Asia. Ha participado regularmente en los mundiales desde 1998 y destaca por su disciplina táctica, velocidad y excelente formación de jugadores.",
+    historia: "Japón es una de las selecciones más fuertes de Asia. Ha participado regularmente en los mundiales desde 1998 y destaca por su disciplina táctica, velocidad y excelente formación de jugadores.",
 
-        curiosidades: [
-            "Es conocida como los 'Samurai Blue'.",
-            "Ha participado en todos los Mundiales desde 1998.",
-            "Fue coanfitrión del Mundial 2002.",
-            "Es una de las selecciones más exitosas de Asia."
-        ],
+    curiosidades: "Conocida como los 'Samurai Blue'. Ha participado en todos los Mundiales desde 1998. Fue coanfitrión del Mundial 2002 junto a Corea del Sur y es una de las selecciones más consistentes de Asia.",
 
-        estadisticas: {
-            participaciones: "8",
-            mejorResultado: "Octavos de final",
-            titulos: "0",
-            goleador: "Kunishige Kamamoto (75 goles)",
-            masPartidos: "Yasuhito Endo (152 partidos)"
+    participaciones: [
+        "1998 — Francia",
+        "2002 — Corea/Japón",
+        "2006 — Alemania",
+        "2010 — Sudáfrica",
+        "2014 — Brasil",
+        "2018 — Rusia",
+        "2022 — Qatar"
+    ],
+
+    estadísticasPrincipales: `
+    <table class="tabla-estadisticas">
+        <tr>
+            <td>Mejor resultado</td>
+            <td>Octavos de final</td>
+        </tr>
+        <tr>
+            <td>Títulos Mundiales</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Goleador histórico</td>
+            <td>Kunishige Kamamoto (75 goles)</td>
+        </tr>
+        <tr>
+            <td>Más partidos</td>
+            <td>Yasuhito Endo (152 partidos)</td>
+        </tr>
+    </table>
+    `,
+
+    partidos: [
+        {
+            rival: "vs Países Bajos",
+            fecha: "14 de Junio de 2026",
+            estadio: "MetLife Stadium"
         },
-
-        partidos: [
-            {
-                rival: "vs Países Bajos",
-                fecha: "14 de Junio de 2026",
-                estadio: "MetLife Stadium"
-            },
-            {
-                rival: "vs Túnez",
-                fecha: "20 de Junio de 2026",
-                estadio: "NRG Stadium"
-            },
-            {
-                rival: "vs Suecia",
-                fecha: "26 de Junio de 2026",
-                estadio: "Lumen Field"
-            }
-        ]
-    },
+        {
+            rival: "vs Túnez",
+            fecha: "20 de Junio de 2026",
+            estadio: "NRG Stadium"
+        },
+        {
+            rival: "vs Suecia",
+            fecha: "26 de Junio de 2026",
+            estadio: "Lumen Field"
+        }
+    ]
+},
 
     suecia: {
-        nombre: "SUECIA",
+    nombre: "SUECIA",
 
-        historia: "Suecia es una selección histórica del fútbol europeo. Fue subcampeona mundial en 1958 y obtuvo el tercer lugar en 1994. Se caracteriza por su fortaleza física y orden defensivo.",
+    historia: "Suecia es una selección histórica del fútbol europeo. Fue subcampeona del mundo en 1958 y tercera en 1994.",
 
-        curiosidades: [
-            "Fue anfitriona del Mundial 1958.",
-            "Zlatan Ibrahimović es su futbolista más famoso.",
-            "Ha alcanzado una final mundialista.",
-            "Es una selección tradicional de Europa."
-        ],
+    curiosidades: "Fue anfitriona del Mundial 1958. Zlatan Ibrahimović es su jugador más emblemático y uno de los delanteros más reconocidos de Europa en la historia reciente.",
 
-        estadisticas: {
-            participaciones: "12",
-            mejorResultado: "Subcampeón (1958)",
-            titulos: "0",
-            goleador: "Zlatan Ibrahimović (62 goles)",
-            masPartidos: "Anders Svensson (148 partidos)"
+    participaciones: [
+        "1934 — Italia",
+        "1938 — Francia",
+        "1950 — Brasil",
+        "1958 — Suecia",
+        "1970 — México",
+        "1974 — Alemania",
+        "1978 — Argentina",
+        "1990 — Italia",
+        "1994 — Estados Unidos",
+        "2002 — Corea/Japón",
+        "2006 — Alemania",
+        "2018 — Rusia"
+    ],
+
+    estadísticasPrincipales: `
+    <table class="tabla-estadisticas">
+        <tr>
+            <td>Mejor resultado</td>
+            <td>Subcampeón (1958)</td>
+        </tr>
+        <tr>
+            <td>Títulos Mundiales</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Goleador histórico</td>
+            <td>Zlatan Ibrahimović (62 goles)</td>
+        </tr>
+        <tr>
+            <td>Más partidos</td>
+            <td>Anders Svensson (148 partidos)</td>
+        </tr>
+    </table>
+    `,
+
+    partidos: [
+        {
+            rival: "vs Túnez",
+            fecha: "15 de Junio de 2026",
+            estadio: "Mercedes-Benz Stadium"
         },
-
-        partidos: [
-            {
-                rival: "vs Túnez",
-                fecha: "15 de Junio de 2026",
-                estadio: "Mercedes-Benz Stadium"
-            },
-            {
-                rival: "vs Países Bajos",
-                fecha: "20 de Junio de 2026",
-                estadio: "AT&T Stadium"
-            },
-            {
-                rival: "vs Japón",
-                fecha: "26 de Junio de 2026",
-                estadio: "Lumen Field"
-            }
-        ]
-    },
-
-    tunez: {
-        nombre: "TÚNEZ",
-
-        historia: "Túnez es una de las selecciones africanas con mayor presencia en Copas del Mundo. Destaca por su organización táctica y por representar constantemente al fútbol del norte de África.",
-
-        curiosidades: [
-            "Es conocida como las 'Águilas de Cartago'.",
-            "Fue la primera selección africana en ganar un partido mundialista.",
-            "Representa regularmente a África en la Copa del Mundo.",
-            "Tiene una gran rivalidad con Argelia y Marruecos."
-        ],
-
-        estadisticas: {
-            participaciones: "7",
-            mejorResultado: "Fase de grupos",
-            titulos: "0",
-            goleador: "Issam Jemâa (36 goles)",
-            masPartidos: "Radhi Jaïdi (105 partidos)"
+        {
+            rival: "vs Países Bajos",
+            fecha: "20 de Junio de 2026",
+            estadio: "AT&T Stadium"
         },
+        {
+            rival: "vs Japón",
+            fecha: "26 de Junio de 2026",
+            estadio: "Lumen Field"
+        }
+    ]   
+ },
 
-        partidos: [
-            {
-                rival: "vs Suecia",
-                fecha: "15 de Junio de 2026",
-                estadio: "Mercedes-Benz Stadium"
-            },
-            {
-                rival: "vs Japón",
-                fecha: "20 de Junio de 2026",
-                estadio: "NRG Stadium"
-            },
-            {
-                rival: "vs Países Bajos",
-                fecha: "26 de Junio de 2026",
-                estadio: "SoFi Stadium"
-            }
-        ]
-    }
 
-};
+   tunez: {
+    nombre: "TÚNEZ",
+
+    historia: "Túnez es una de las selecciones africanas con mayor presencia en Copas del Mundo. Es una potencia del norte de África con tradición defensiva y gran disciplina táctica.",
+
+    curiosidades: "Conocida como las 'Águilas de Cartago'. Fue la primera selección africana en ganar un partido en una Copa del Mundo (1978).",
+
+    participaciones: [
+        "1978 — Argentina",
+        "1998 — Francia",
+        "2002 — Corea/Japón",
+        "2006 — Alemania",
+        "2018 — Rusia",
+        "2022 — Qatar"
+    ],
+
+    estadísticasPrincipales: `
+    <table class="tabla-estadisticas">
+        <tr>
+            <td>Mejor resultado</td>
+            <td>Fase de grupos</td>
+        </tr>
+        <tr>
+            <td>Títulos Mundiales</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Goleador histórico</td>
+            <td>Issam Jemâa (36 goles)</td>
+        </tr>
+        <tr>
+            <td>Más partidos</td>
+            <td>Radhi Jaïdi (105 partidos)</td>
+        </tr>
+    </table>
+    `,
+
+    partidos: [
+        {
+            rival: "vs Suecia",
+            fecha: "15 de Junio de 2026",
+            estadio: "Mercedes-Benz Stadium"
+        },
+        {
+            rival: "vs Japón",
+            fecha: "20 de Junio de 2026",
+            estadio: "NRG Stadium"
+        },
+        {
+            rival: "vs Países Bajos",
+            fecha: "26 de Junio de 2026",
+            estadio: "SoFi Stadium"
+        }
+    ]
+}
+}
 
 function abrirModal(equipoId) {
 
     const modal = document.getElementById("modal-equipo");
     const titulo = document.getElementById("modal-titulo");
     const historia = document.getElementById("modal-historia");
+    const curiosidades = document.getElementById("modal-curiosidades");
+    const estadisticas = document.getElementById("modal-estadisticasPrincipales");
     const listaPartidos = document.getElementById("modal-partidos");
-
-    const listaCuriosidades = document.getElementById("modal-curiosidades");
-    const estadisticas = document.getElementById("modal-estadisticas");
 
     const datos = datosEquipos[equipoId];
 
@@ -174,22 +253,10 @@ function abrirModal(equipoId) {
     historia.textContent = datos.historia;
 
     // Curiosidades
-    listaCuriosidades.innerHTML = "";
-
-    datos.curiosidades.forEach(curiosidad => {
-        const li = document.createElement("li");
-        li.textContent = curiosidad;
-        listaCuriosidades.appendChild(li);
-    });
+    curiosidades.textContent = datos.curiosidades;
 
     // Estadísticas
-    estadisticas.innerHTML = `
-        <p><strong>Participaciones en Mundiales:</strong> ${datos.estadisticas.participaciones}</p>
-        <p><strong>Mejor resultado:</strong> ${datos.estadisticas.mejorResultado}</p>
-        <p><strong>Títulos Mundiales:</strong> ${datos.estadisticas.titulos}</p>
-        <p><strong>Goleador histórico:</strong> ${datos.estadisticas.goleador}</p>
-        <p><strong>Jugador con más partidos:</strong> ${datos.estadisticas.masPartidos}</p>
-    `;
+   estadisticas.innerHTML = construirEstadisticas(datos);
 
     // Partidos
     listaPartidos.innerHTML = "";
@@ -230,3 +297,61 @@ window.onclick = function(event) {
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Grupo F Mundial 2026 cargado correctamente");
 });
+
+function construirEstadisticas(datos) {
+
+    let html = '';
+
+    if (datos.participaciones && datos.participaciones.length > 0) {
+
+        html += `
+        <div class="acordeon-participaciones">
+
+            <button class="acordeon-btn"
+                    onclick="toggleAcordeon(this)"
+                    aria-expanded="false">
+
+                <span class="acordeon-label">
+                    🏆 Participaciones mundialistas
+                    <span class="acordeon-count">${datos.participaciones.length}</span>
+                </span>
+
+                <span class="acordeon-flecha">&#8964;</span>
+
+            </button>
+
+            <div class="acordeon-panel"
+                 aria-hidden="true">
+
+                <ul class="lista-participaciones">
+
+                    ${datos.participaciones.map((p, i) =>
+                        `<li><span class="num-edicion">${i + 1}</span>${p}</li>`
+                    ).join('')}
+
+                </ul>
+
+            </div>
+
+        </div>`;
+    }
+
+    if (datos.estadísticasPrincipales) {
+        html += datos.estadísticasPrincipales;
+    }
+
+    return html;
+}
+
+function toggleAcordeon(btn) {
+
+    const panel = btn.nextElementSibling;
+
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+
+    btn.setAttribute('aria-expanded', !expanded);
+    panel.setAttribute('aria-hidden', expanded);
+
+    btn.classList.toggle('abierto', !expanded);
+    panel.classList.toggle('abierto', !expanded);
+}

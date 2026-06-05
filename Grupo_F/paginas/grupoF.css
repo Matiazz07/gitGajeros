@@ -344,3 +344,83 @@ body {
     }
 
 }
+/* ==========================
+   Acordeon de Participaciones
+   ========================== */
+.acordeon-participaciones {
+    margin: 15px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.acordeon-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1e1e1e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.acordeon-panel {
+    display: none;
+    background: #f5f5f5;
+    padding: 10px;
+}
+
+.acordeon-panel.abierto {
+    display: block;
+}
+
+.acordeon-btn.abierto {
+    background: #333;
+}
+
+.lista-participaciones {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-participaciones li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.num-edicion {
+    font-weight: bold;
+    margin-right: 8px;
+}
+/* ==========================
+   Tabla de Estadiscas
+   ========================== */
+   .tabla-estadisticas {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.tabla-estadisticas td {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.tabla-estadisticas tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+#modal-curiosidades {
+    background: #fff8dc;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
