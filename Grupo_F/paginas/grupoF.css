@@ -379,7 +379,7 @@ body {
     background: white;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.50);
     display: grid;
     gap: 20px;
 
@@ -393,8 +393,8 @@ body {
     inset: 0;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 55%;
-    opacity: 0.08;
+    background-size: 60%;
+    opacity: 0.20;
     z-index: 0;
 }
 
