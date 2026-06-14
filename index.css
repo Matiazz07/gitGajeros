@@ -228,11 +228,13 @@ footer {
     transform: translateY(-8px);
     box-shadow: 0 20px 40px rgba(138, 21, 56, 0.2);
 }
-
-.cromo-imagen {
-    position: relative;
+/* foto INTEGRANTE */
+.foto-integrante{
     width: 100%;
-    height: 160px;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    background-color: #fff;
 }
 
 .cromo-contenido {
