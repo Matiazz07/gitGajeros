@@ -56,21 +56,36 @@ header p {
     }
 }
 
-.tarjeta {
-    background: white;
+.tarjeta{
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            rgba(255,255,255,0.50),
+            rgba(255,255,255,0.50)
+        ),
+        url("balon.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     border-radius: 20px;
-    padding: 35px;
+    padding: 30px;
     text-decoration: none;
-    color: #0f172a;
-    text-align: center;
-    transition: 0.3s;
-    border: 3px solid transparent;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, .15);
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
 }
 
-.tarjeta:hover {
-    transform: translateY(-10px);
-    border-color: #ffb703;
+.tarjeta:hover{
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 12px 25px rgba(0,0,0,0.15);
+
+    background-size: 110%;
 }
 
 .tarjeta h2 {

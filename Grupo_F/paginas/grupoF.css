@@ -369,4 +369,54 @@ body {
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+/*Marca de agua de fonfo con las banderas de los paises del grupo F */
+.grid-modal-layout {
+    position: relative;
+    overflow: hidden;
+}
 
+.grid-modal-layout{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: grid;
+    gap: 20px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-modal-layout::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
+    opacity: 0.08;
+    z-index: 0;
+}
+
+.columna-narrativa,
+.columna-tecnica{
+    position: relative;
+    z-index: 1;
+}
+
+/* Banderas */
+body.paises-bajos .grid-modal-layout::before{
+    background-image: url("../img/paisesBajos.jpg");
+}
+
+body.japon .grid-modal-layout::before{
+    background-image: url("../img/japon.jpg");
+}
+
+body.suecia .grid-modal-layout::before{
+    background-image: url("../img/suecia.jpg");
+}
+
+body.tunez .grid-modal-layout::before{
+    background-image: url("../img/tunez.jpg");
+}
